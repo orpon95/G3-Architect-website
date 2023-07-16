@@ -13,7 +13,7 @@
 .btn-primary {
     border-radius: 8px;
     background: #FF900E;
-    width: 11.2rem,;
+    width: 11.2rem, ;
     height: 4rem;
     padding: 1.25rem 1.3rem;
     border: 0;
@@ -22,7 +22,7 @@
 /* header portion start */
 header {
     background: rgba(255, 144, 14, 0.10);
-    
+
 
 }
 
@@ -74,44 +74,99 @@ nav h2 {
 p {
     margin-bottom: 1.25rem;
 }
-.img-div{
+
+.img-div {
     width: 80%;
     margin: 2.8rem auto;
-    
+
 }
-.img-div img{
+
+.img-div img {
     width: 100%;
 }
+
 /* banner portion end */
+/* header portion start */
+
+
+
+/* main start */
+
+/* features portion start */
+.features {
+    display: flex;
+    margin: 5rem 13rem 10rem 13rem;
+    
+    gap: 4.3rem;
+    align-items: center;
+
+}
+
+.text-section h3 {
+    color: #727272;
+
+    font-size: 2.8rem;
+
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+
+}
+
+.text-section p {
+    color: #727272;
+    
+    font-size: 1rem;
+    
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+   
+}
+.img-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    
+}
+/* features portion end */
+
+
+
+
+
 
 /* responsive portion */
 /* for mobile divices */
 @media screen and (max-width:576px) {
-    nav{
+    nav {
         flex-direction: column;
         padding: 1rem;
         gap: 0.8rem;
-        
-    }
-    nav ul{
-        gap:1rem
-    }
-    .banner{
-        padding: 1rem;
-    }
-    
-}
-@media screen and (min-width:577px) and (max-width:992px){
 
-    nav{
+    }
+
+    nav ul {
+        gap: 1rem
+    }
+
+    .banner {
         padding: 1rem;
-        
     }
-    nav ul{
+
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    nav {
+        padding: 1rem;
+
+    }
+
+    nav ul {
         margin-right: 0.7rem;
-        
+
     }
-    .banner{
+
+    .banner {
         padding: 1rem;
     }
 
