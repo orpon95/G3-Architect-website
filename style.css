@@ -32,6 +32,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 3.2rem;
+    /* background-color: red; */
 }
 
 nav ul {
@@ -95,8 +96,10 @@ p {
 /* features portion start */
 .features {
     display: flex;
-    margin: 5rem 13rem 10rem 13rem;
-    
+   
+    padding: 0 10rem;
+    border: 2px solid black;
+
     gap: 4.3rem;
     align-items: center;
 
@@ -114,19 +117,26 @@ p {
 
 .text-section p {
     color: #727272;
-    
+
     font-size: 1rem;
-    
+
     font-weight: 400;
     margin-bottom: 1.5rem;
-   
+
 }
-.img-section{
+
+.img-section img {
+    width: auto;
+    height: auto;
+}
+
+.img-section {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
-    
+
 }
+
 /* features portion end */
 
 
@@ -152,6 +162,25 @@ p {
         padding: 1rem;
     }
 
+    .features {
+        flex-direction: column-reverse;
+        padding: 1rem;
+    }
+
+    .text-section {
+        text-align: center;
+    }
+
+    .text-section h3 {
+        font-size: 2rem;
+    }
+
+    .img-section {
+        grid-template-columns: 1fr;
+
+
+    }
+
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
@@ -168,6 +197,17 @@ p {
 
     .banner {
         padding: 1rem;
+    }
+
+    .features {
+        flex-direction: column-reverse;
+        padding: 1rem;
+    }
+
+    .img-section {
+        grid-template-columns: 1fr;
+
+
     }
 
 
