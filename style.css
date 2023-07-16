@@ -29,7 +29,7 @@ header {
 /* nav portion start */
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 3.2rem;
 }
@@ -81,4 +81,40 @@ p {
 }
 .img-div img{
     width: 100%;
+}
+/* banner portion end */
+
+/* responsive portion */
+/* for mobile divices */
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        padding: 1rem;
+        gap: 0.8rem;
+        
+    }
+    nav ul{
+        gap:1rem
+    }
+    .banner{
+        padding: 1rem;
+    }
+    
+}
+@media screen and (min-width:577px) and (max-width:992px){
+
+    nav{
+        padding: 1rem;
+        
+    }
+    nav ul{
+        margin-right: 0.7rem;
+        
+    }
+    .banner{
+        padding: 1rem;
+    }
+
+
+
 }
