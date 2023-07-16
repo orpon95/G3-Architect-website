@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+
+/* shared css */
+* {
+    margin: 0;
+
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 11.2rem,;
+    height: 4rem;
+    padding: 1.25rem 1.3rem;
+    border: 0;
+}
+
+/* header portion start */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    
+
+}
+
+/* nav portion start */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3.2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #424242;
+    text-align: center;
+
+    font-size: 1rem;
+
+    font-weight: 500;
+
+
+}
+
+nav h2 {
+    color: #131313;
+    text-align: center;
+
+    font-size: 2.8rem;
+
+    font-weight: 700;
+
+
+}
+
+/* nav portion end*/
+
+/* banner portion start */
+.banner {
+    text-align: center;
+}
+
+.banner h1,
+p {
+    margin-bottom: 1.25rem;
+}
+.img-div{
+    width: 80%;
+    margin: 2.8rem auto;
+    
+}
+.img-div img{
+    width: 100%;
+}
