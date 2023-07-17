@@ -19,6 +19,7 @@
     border: 0;
 }
 
+
 /* header portion start */
 header {
     background: rgba(255, 144, 14, 0.10);
@@ -96,9 +97,9 @@ p {
 /* features portion start */
 .features {
     display: flex;
-   
+
     padding: 0 10rem;
-    border: 2px solid black;
+
 
     gap: 4.3rem;
     align-items: center;
@@ -138,6 +139,66 @@ p {
 }
 
 /* features portion end */
+/* enjooy features portion start */
+
+.enjoy-features-container {
+    display: flex;
+    width: 85%;
+    margin: 9.32rem auto;
+    gap: 8.5rem;
+    padding-bottom: 1.2rem;
+   
+    position: relative;
+
+}
+
+.div-aside h6 {
+    color: #131313;
+
+    font-size: 2.8rem;
+
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+
+}
+
+.box {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 2rem;
+    margin-bottom: 1.8rem;
+
+}
+
+.div-aside p,
+.box p {
+    color: #727272;
+
+    font-size: 1rem;
+
+    font-weight: 400;
+
+}
+
+.second-btn {
+    color: #FFF;
+
+
+    font-size: 4rem;
+
+    font-weight: 700;
+    width: 342px;
+    height: 200px;
+    position: absolute;
+    top: 830px;
+    right: 500px;
+    line-height: 2rem;
+
+}
+.sp-btn{
+    font-size:1.5rem;
+}
 
 
 
