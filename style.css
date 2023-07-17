@@ -149,7 +149,7 @@ p {
     padding-bottom: 1.2rem;
 
     position: relative;
-    
+
 
 }
 
@@ -193,7 +193,7 @@ p {
     color: #FFF;
 
 
-    font-size: 4rem;
+    font-size: 3rem;
 
     font-weight: 700;
     max-width: 342px;
@@ -201,8 +201,8 @@ p {
     position: absolute;
     /* top: 830px; */
     /* right: 500px; */
-    top: 85%;
-    right: 30%;
+    top: 80%;
+    right: 20%;
     line-height: 2rem;
 
 }
@@ -211,6 +211,42 @@ p {
     font-size: 1.5rem;
 }
 
+/* enjooy features portion end */
+/* fact section start */
+.fact-title {
+    max-width: 85%;
+    margin: 0 auto 5rem auto;
+}
+
+.fact-title h4 {
+    color: #131313;
+
+    font-size: 2rem;
+    font-weight: 700;
+
+
+}
+
+.fact-box {
+    display: flex;
+    justify-content: center;
+    gap: 7.5rem;
+}
+
+.fact-box div {
+    border: 1px solid yellow;
+    padding: 2.5rem 1.8rem;
+    text-align: center;
+}
+
+.fact-box h4 {
+    color: #424242;
+
+    font-size: 2.8rem;
+
+    font-weight: 600;
+
+}
 
 
 
@@ -257,10 +293,12 @@ p {
         flex-direction: column;
         justify-content: center;
     }
-    .div-aside h6{
+
+    .div-aside h6 {
         font-size: 2rem;
     }
-    .box{
+
+    .box {
         margin: 0 .8rem;
     }
 
@@ -284,6 +322,12 @@ p {
 
     .btn-primary {
         padding: 0.8rem;
+    }
+
+    .fact-box {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+
     }
 
 }
@@ -320,12 +364,15 @@ p {
         justify-content: center;
         gap: 1rem;
     }
-    .div-aside h6{
+
+    .div-aside h6 {
         font-size: 2rem;
     }
-    .box{
+
+    .box {
         margin-right: 1rem;
     }
+
     .second-btn {
         color: #FFF;
 
@@ -341,6 +388,12 @@ p {
         top: 96%;
         right: 40%;
         line-height: 1rem;
+
+    }
+
+    .fact-box {
+        flex-wrap: wrap;
+        gap: 1.5rem;
 
     }
 
