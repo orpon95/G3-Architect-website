@@ -8,6 +8,7 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    
 }
 
 .btn-primary {
@@ -252,7 +253,7 @@ p {
 /* sponsers section start */
 .sponsers {
     margin: 9.3rem;
-    
+
 }
 
 .sponsers-title {
@@ -276,6 +277,21 @@ p {
     justify-content: center;
     margin: 2rem 0;
 }
+
+/* sponsers section end */
+/* footer start */
+footer {
+    width: 80vw;
+    margin: 0 auto 12rem auto;
+    border-radius: 8px;
+    background: #FFF4E7;
+    
+    padding: 2.5rem;
+    text-align: center;
+    
+}
+/* footer end */
+
 
 
 
@@ -357,7 +373,8 @@ p {
         gap: 1.5rem;
 
     }
-    .sponsers{
+
+    .sponsers {
         margin: 1.5rem 0;
         padding: 1rem;
     }
@@ -366,6 +383,7 @@ p {
         flex-wrap: wrap;
         gap: 2rem;
     }
+    
 
 }
 
@@ -432,12 +450,14 @@ p {
         flex-wrap: wrap;
         gap: 1.5rem;
 
-    }.sponsers{
+    }
+
+    .sponsers {
         margin: 1.5rem 0;
         padding: 1rem;
     }
 
-    
+
 
     .sponsers-img {
         flex-wrap: wrap;
