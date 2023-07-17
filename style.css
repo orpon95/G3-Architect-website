@@ -248,6 +248,34 @@ p {
 
 }
 
+/* fact section end */
+/* sponsers section start */
+.sponsers {
+    margin: 9.3rem;
+    
+}
+
+.sponsers-title {
+    text-align: center;
+
+}
+
+.sponsers-title h4 {
+    color: #131313;
+
+    font-size: 2.2rem;
+
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+
+}
+
+.sponsers-img {
+    display: flex;
+    gap: 7rem;
+    justify-content: center;
+    margin: 2rem 0;
+}
 
 
 
@@ -329,6 +357,15 @@ p {
         gap: 1.5rem;
 
     }
+    .sponsers{
+        margin: 1.5rem 0;
+        padding: 1rem;
+    }
+
+    .sponsers-img {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
 
 }
 
@@ -395,6 +432,16 @@ p {
         flex-wrap: wrap;
         gap: 1.5rem;
 
+    }.sponsers{
+        margin: 1.5rem 0;
+        padding: 1rem;
+    }
+
+    
+
+    .sponsers-img {
+        flex-wrap: wrap;
+        gap: 2rem;
     }
 
 
